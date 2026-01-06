@@ -35,10 +35,19 @@ header{
 
 }
 
+.contact-us{
+    display: flex;
+    justify-content: end;
+}
+
 .banner-container{
     /* display: flex; */
     justify-self: flex-end;
     /* align-items: flex-end; */
+}
+
+.banner-container p{
+    text-align: right;
 }
 
 .banner-heading h1{
@@ -66,13 +75,11 @@ header{
     font-weight: 400;
     line-height: 26px; /* 162.5% */
     margin-bottom: 32px;
+    display: flex;
+    justify-content: end;
 }
 
-.banner-container button{
-    
-    justify-content:right;
-    
-}
+
 
 .btn{
     width: 160px;
@@ -89,6 +96,103 @@ header{
 
 }
 
+.mid-container{
+    width: 71%;
+    max-width: 1072px;
+    gap: 87px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 131px 264px;
+}
 
+.check-text{
+    display: inline-block;
+}
 
+.mid-text h3{
+    color: var(--Dark-01, #151414);
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.para{
+    color: var(--Dark-02, #444343);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 16px;
+}
+
+.check-text{
+    color: var(--Dark-02, #444343);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 8px;
+}
+
+#mid .img{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#plans{
+    padding: 0 230px;
+}
+
+.plan-heading{
+    text-align: center;
+    color: var(--Dark-01, #151414);
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom:50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    /* gap: 86px; */
+}
+
+.card{
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    /* width: 270px; */
+    /* margin: 0 auto; */
+}
+
+.card-title{
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.card-info{
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
